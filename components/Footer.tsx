@@ -21,9 +21,9 @@ const Footer = () => {
                   width={24}
                   alt={item.label}
                 />
-                <p className="text-sm font-normal text-[#98A2B3]">
+                <a href={item.href} target="_blank" className="text-sm font-normal text-[#98A2B3]">
                   {item.label}
-                </p>
+                </a>
               </div>
               <p className="font-semibold text-white text-sm">{item.value}</p>
             </div>

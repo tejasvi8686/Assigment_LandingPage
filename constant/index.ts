@@ -64,12 +64,12 @@ export const itemleft = [
 
 export const itemright = [
   {
-    href: "/",
+    href: "tel:+1234567890",
     img: call,
     text: "+91  0000000000",
   },
   {
-    href: "/",
+    href: "mailto:contact@example.com",
     img: Mail,
     text: "demo@gmail.com",
   },
@@ -283,17 +283,20 @@ export const values = [
   {
     image: Phone,
     label: 'Contact nums',
-    value: '+91 0000000000'
+    value: '+91 0000000000',
+    href: "tel:+1234567890"
   },
   {
     image: Mailf,
     label: 'Gmail',
-    value: 'demo@gmail.com'
+    value: 'demo@gmail.com',
+    href: "mailto:contact@example.com"
   },
   {
     image: Address,
     label: 'Address',
-    value: 'Mumbai, INDIA'
+    value: 'Mumbai, INDIA',
+    href : 'https://maps.google.com/?q=Mumbai'
   },
   {
     image: Request,

@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
               <li key={index} className="flex flex-row items-center gap-2">
                 <Image src={item.img} width={24} height={24} alt="" />
                 <Link
-                  className="text-black text-sm font-medium hover:text-[#4045C1]"
+                  className="text-black text-sm font-medium "
                   href={item.href}
                 >
                   {item.text}
