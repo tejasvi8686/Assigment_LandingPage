@@ -154,8 +154,17 @@ export const projects = [
   { text: 'Online courses', imageSrc: Online }
 ];
 
+type ProjectDetails = {
+  title: string;
+  description: string;
+};
 
-export const Developeds = {
+type DevelopedsType = {
+  [key: string]: ProjectDetails;
+};
+
+
+export const Developeds: DevelopedsType  = {
   "Project 1": {
     title: "Project 1",
     description:

@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from "react";
 import Image from "next/image";
 import Duophone from "@/public/assets/duophone.svg";
@@ -9,10 +9,17 @@ import { Developeds, links, Maps, stats } from "@/constant/index";
 const Developed = () => {
   const [activeProject, setActiveProject] = useState("Project 1");
 
+  const currentProject = Developeds[activeProject] || {
+    title: "Not Found",
+    description: "Project not found",
+  };
+
   return (
     <section className="sm:container bg-[#F2F4F7] pt-10 pb-12 sm:px-28 px-4">
-      <h2 className="font-bold sm:text-4xl text-2xl pb-5">Projects we are proud of</h2>
-      <p className="font-medium text-sm sm:pb-0 pb-8">
+      <h2 className="font-bold sm:text-4xl text-2xl pb-5">
+        Projects we are proud of
+      </h2>
+      <p className="font-medium text-sm sm:pb-2 pb-8">
         Our software development company is truly proud of the wonderful clients
         we have <br /> worked with. We enjoy a long-term partnership
       </p>
@@ -35,12 +42,10 @@ const Developed = () => {
             ))}
           </div>
 
-          <h2 className=" font-bold text-4xl">
-            {Developeds[activeProject].title}
-          </h2>
+          <h2 className="font-bold text-4xl">{currentProject.title}</h2>
 
-          <p className=" text-sm font-normal leading-[20px] tracking-[-0.24px]">
-            {Developeds[activeProject].description}
+          <p className="text-sm font-normal leading-[20px] tracking-[-0.24px]">
+            {currentProject.description}
           </p>
 
           <div className="flex sm:flex-row flex-wrap space-x-4 text-gray-700">
