@@ -28,7 +28,7 @@ const Application: React.FC = () => {
             />
           ))}
         </div>
-        <Image src={Home} height={564} width={440} alt="home-p" className='sm:py-0 py-7'  />
+        <Image src={Home} height={564} width={440} alt="home-p" className='sm:py-0 py-7 items-center mx-auto'  />
         <div className="flex flex-col gap-5">
           {CardDatasRight.map((data: CardData) => (
             <Card 
