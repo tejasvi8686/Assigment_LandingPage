@@ -92,28 +92,28 @@ export const course = [
 export const formFields = [
   {
     id: "full_name",
-    label: "Full Name",
+    label: "My Name",
     type: "text",
     placeholder: "",
     required: false,
   },
   {
     id: "last_name",
-    label: "Last Name",
+    label: "🏳️‍🌈 +91 0000000000",
     type: "text",
     placeholder: "",
     required: true,
   },
   {
     id: "phone_number",
-    label: "Phone number (123-456-7890)",
+    label: "Bussiness Name",
     type: "tel",
     placeholder: "",
     required: true,
   },
   {
     id: "company_name",
-    label: "Company (Ex. Google)",
+    label: "demoaccount@gmail,com",
     type: "text",
     placeholder: "",
     required: true,

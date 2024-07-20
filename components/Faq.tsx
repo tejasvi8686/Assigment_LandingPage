@@ -9,7 +9,7 @@ import {
 const Faq = () => {
   return (
     <div className="sm:container sm:px-28 sm:py-20 px-4 py-16">
-        <h1 className="font-bold sm:text-4xl text-2xl pb-8">FAQ</h1>
+      <h1 className="font-bold sm:text-4xl text-2xl pb-8">FAQ</h1>
       <div className="flex sm:flex-row flex-col  sm:gap-5 gap-0">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
@@ -17,7 +17,13 @@ const Faq = () => {
               What is the cost of a mobile application?
             </AccordionTrigger>
             <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
+              Development terms directly depend on the requirements for the
+              mobile application, the characteristics of the company, as well as
+              the wishes of the customer. Average development time from start to
+              finished application: Medium projects up to 3 months. Large
+              projects about 4-6 months. To get a more accurate estimate of the
+              project completion time, it is necessary to determine the main
+              task of the application, think over its logic and functionality.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -25,18 +31,27 @@ const Faq = () => {
               Do you provide a guarantee for the mobile application?
             </AccordionTrigger>
             <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+              Development terms directly depend on the requirements for the
+              mobile application, the characteristics of the company, as well as
+              the wishes of the customer. Average development time from start to
+              finished application: Medium projects up to 3 months. Large
+              projects about 4-6 months. To get a more accurate estimate of the
+              project completion time, it is necessary to determine the main
+              task of the application, think over its logic and functionality.
             </AccordionContent>
           </AccordionItem>
-      
         </Accordion>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-3">
             <AccordionTrigger>How long will development take?</AccordionTrigger>
             <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+              Development terms directly depend on the requirements for the
+              mobile application, the characteristics of the company, as well as
+              the wishes of the customer. Average development time from start to
+              finished application: Medium projects up to 3 months. Large
+              projects about 4-6 months. To get a more accurate estimate of the
+              project completion time, it is necessary to determine the main
+              task of the application, think over its logic and functionality.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
@@ -44,11 +59,15 @@ const Faq = () => {
               I will not tell my idea, do you guarantee confidentiality?
             </AccordionTrigger>
             <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+              Development terms directly depend on the requirements for the
+              mobile application, the characteristics of the company, as well as
+              the wishes of the customer. Average development time from start to
+              finished application: Medium projects up to 3 months. Large
+              projects about 4-6 months. To get a more accurate estimate of the
+              project completion time, it is necessary to determine the main
+              task of the application, think over its logic and functionality.
             </AccordionContent>
           </AccordionItem>
-       
         </Accordion>
       </div>
     </div>
