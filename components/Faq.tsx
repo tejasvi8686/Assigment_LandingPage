@@ -8,7 +8,7 @@ import {
 
 const Faq = () => {
   return (
-    <div className="sm:container sm:px-28 sm:py-20 px-4 py-16">
+    <section className="sm:container sm:px-28 sm:py-20 px-4 py-16" id="faq">
       <h1 className="font-bold sm:text-4xl text-2xl pb-8">FAQ</h1>
       <div className="flex sm:flex-row flex-col  sm:gap-5 gap-0">
         <Accordion type="single" collapsible className="w-full">
@@ -70,7 +70,7 @@ const Faq = () => {
           </AccordionItem>
         </Accordion>
       </div>
-    </div>
+    </section>
   );
 };
 

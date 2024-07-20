@@ -40,23 +40,23 @@ import Request from "@/public/assets/requestf.svg";
 
 export const itemleft = [
   {
-    href: "/",
+    href: "#project",
     text: "Services",
   },
   {
-    href: "/",
+    href: "#planet",
     text: "Media",
   },
   {
-    href: "/",
+    href: "#cases",
     text: "Cases",
   },
   {
-    href: "/",
+    href: "#faq",
     text: "FAQ",
   },
   {
-    href: "/",
+    href: "#contact",
     text: "Contacts",
   },
 
@@ -100,21 +100,21 @@ export const formFields = [
   {
     id: "last_name",
     label: "🏳️‍🌈 +91 0000000000",
-    type: "text",
+    type: "number",
     placeholder: "",
     required: true,
   },
   {
     id: "phone_number",
     label: "Bussiness Name",
-    type: "tel",
+    type: "text",
     placeholder: "",
     required: true,
   },
   {
     id: "company_name",
     label: "demoaccount@gmail,com",
-    type: "text",
+    type: "email",
     placeholder: "",
     required: true,
   },

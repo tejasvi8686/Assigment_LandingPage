@@ -7,7 +7,7 @@ import Form from "./Form";
 
 const Hero = () => {
   return (
-    <section className="flex sm:flex-row sm:pl-14 px-4 bg-[#F2F4F7] sm:container h-[100vh] sm:h-[140vh] overflow-y-hidden">
+    <section className="flex sm:flex-row sm:pl-14 px-4 bg-[#F2F4F7] sm:container h-[135vh] sm:h-[140vh] overflow-y-hidden">
       <div className="sm:pt-40 pt-36">
         <p className="font-semibold sm:text-[39px] text-lg pb-5 sm:leading-[47px] tracking-wide">
           <span className="text-[#FFBA00] font-extrabold">
@@ -37,6 +37,7 @@ const Hero = () => {
           width={2000}
           alt="heros"
           className=" relative sm:bottom-[22rem] sm:left-8"
+          loading="lazy"
         />
       </div>
     </section>

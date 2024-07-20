@@ -21,14 +21,14 @@ const Navbar: React.FC = () => {
             href="/"
             className="flex flex-row items-center space-x-2 rtl:space-x-reverse mr-5"
           >
-            <Image src={Logo1} alt=" Logo" height={60} width={180} />
+            <Image src={Logo1} alt=" Logo" height={60} width={180} loading="lazy" />
           </Link>
           <div className="md:hidden lg:flex items-center space-x-4 rtl:space-x-reverse">
             <ul className="hidden md:flex space-x-8 rtl:space-x-reverse items-center">
               {itemleft.map((item, index) => (
                 <li key={index}>
                   <Link
-                    className="text-black text-sm font-medium hover:text-[#4045C1]"
+                    className="text-black text-sm font-medium hover:text-[#4045C1] scroll-smooth duration-100"
                     href={item.href}
                   >
                     {item.text}
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
           aria-expanded={isMenuOpen}
           onClick={toggleMenu}
         >
-          <Image src={Hamburg} height={16} width={16} alt="hamburg" />
+          <Image src={Hamburg} height={16} width={16} alt="hamburg" loading="lazy" />
         </button>
       </div>
       <div
@@ -88,6 +88,7 @@ const Navbar: React.FC = () => {
           ))}
         </ul>
       </div>
+    
     </nav>
   );
 };

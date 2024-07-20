@@ -14,7 +14,7 @@ type CardData = {
 
 const Application: React.FC = () => {
   return (
-    <section className="sm:container sm:px-24 sm:py-14 px-4 py-10">
+    <section className="sm:container sm:px-24 sm:py-14 px-4 py-10" id="cases">
       <h2 className="font-bold sm:text-4xl text-3xl pb-12">Application Development Stages</h2>
       <div className="flex sm:flex-row flex-col justify-between">
         <div className="flex flex-col gap-5">
@@ -28,7 +28,7 @@ const Application: React.FC = () => {
             />
           ))}
         </div>
-        <Image src={Home} height={564} width={440} alt="home-p" className='sm:py-0 py-7 items-center mx-auto'  />
+        <Image src={Home} height={564} width={440} alt="home-p" className='sm:py-0 py-7 items-center mx-auto' loading='lazy' />
         <div className="flex flex-col gap-5">
           {CardDatasRight.map((data: CardData) => (
             <Card 

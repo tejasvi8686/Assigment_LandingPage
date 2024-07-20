@@ -4,7 +4,7 @@ import { projects } from "@/constant/index";
 
 const Projects = () => {
   return (
-    <section className="sm:container bg-[#F2F4F7] pt-20 pb-10 sm:px-28 px-4">
+    <section className="sm:container bg-[#F2F4F7] pt-20 pb-10 sm:px-28 px-4" id="project">
       <h2 className="font-bold sm:text-3xl text-2xl leading-[144%] tracking-[0.33px]">
         Developed more than <span className="text-[#80A948]">100</span> <br />{" "}
         projects in <span className="text-[#80A948]">15</span> industries
@@ -21,6 +21,7 @@ const Projects = () => {
                     height={44}
                     width={44}
                     alt="social"
+                    loading="lazy"
                   />
                 </div>
                 <span>{item.text}</span>

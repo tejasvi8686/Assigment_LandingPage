@@ -3,7 +3,7 @@ import Form from "./Form";
 
 const Discuss = () => {
   return (
-    <section className="sm:container sm:px-24 sm:py-14 px-4 py-6 bg-custom-gradient">
+    <section className="sm:container sm:px-24 sm:py-14 px-4 py-6 bg-custom-gradient" id="contact">
       <div className="flex sm:flex-row flex-col justify-between">
         <div className="sm:pb-0 pb-4">
           <h2 className="font-bold text-3xl text-white leading-[144%] tracking-[0.33%] pb-6">

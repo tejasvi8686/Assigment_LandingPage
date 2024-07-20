@@ -5,7 +5,7 @@ import { contactInfo } from "@/constant";
 
 const Footer = () => {
   return (
-    <footer className="sm:container px-6 py-4 rounded-xl mx-auto w-[95%] sm:w-auto sm:m-[36px] m-[10px] bg-black">
+    <footer className=" px-6 py-4 rounded-xl mx-auto w-[95%] sm:w-auto sm:m-[36px] m-[10px] bg-black">
       <div className="flex justify-center pb-4">
         <Image src={LogoBG} height={113} width={290} alt="logobg" />
       </div>

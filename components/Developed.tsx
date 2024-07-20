@@ -76,8 +76,8 @@ const Developed = () => {
           </div>
 
           <div className="flex flex-row gap-4">
-            <Image src={IOS} height={40} width={148} alt="ios" />
-            <Image src={Google} height={40} width={148} alt="google" />
+            <Image src={IOS} height={40} width={148} alt="ios" loading="lazy" />
+            <Image src={Google} height={40} width={148} alt="google" loading="lazy" />
           </div>
         </div>
         <Image src={Duophone} height={449} width={446} alt="duophone" />

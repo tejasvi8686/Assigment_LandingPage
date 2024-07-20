@@ -9,7 +9,7 @@ const Planet = () => {
   const planetsArray = new Array(6).fill(null);
 
   return (
-    <section className="sm:container sm:px-14 sm:py-16 px-4 py-6">
+    <section className="sm:container sm:px-14 sm:py-16 px-4 py-6" id="planet">
       <div className="flex flex-row flex-wrap justify-between items-center border-t border-b border-custom-gray sm:py-14 py-5">
         {planetsArray.map((_, index) => (
           <Image
@@ -63,7 +63,7 @@ const Planet = () => {
                   <a href="#" className="text-black hover:underline">
                     {item}
                   </a>
-                  <Image src={Side} width={7} height={12} alt="side" />
+                  <Image src={Side} width={7} height={12} alt="side" loading="lazy" />
                 </li>
               ))}
             </ul>
