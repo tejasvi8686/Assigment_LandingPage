@@ -17,6 +17,19 @@ import call from "@/public/assets/phone.svg";
 import Mail from "@/public/assets/mail.svg";
 import Map from "@/public/assets/map.svg";
 import Esate from "@/public/assets/estate.svg";
+import Analysis from "@/public/assets/planing.svg"
+import Design from "@/public/assets/design.png"
+import Development from "@/public/assets/coding-language.svg"
+import Testing from "@/public/assets/security.svg"
+import Launching from "@/public/assets/hosting 1.svg"
+import Application from "@/public/assets/application.svg"
+import One from "@/public/assets/1.svg"
+import Two from "@/public/assets/2.svg"
+import Three from "@/public/assets/3.svg"
+import Four from "@/public/assets/4.svg"
+import Five from "@/public/assets/5.svg"
+import six from "@/public/assets/6.svg"
+
 
 
 //navbar 
@@ -205,3 +218,53 @@ export const stats = [
   { title: '400%', description: 'User Growth' },
   { title: '+ 200 000', description: 'Active User' }
 ];
+
+
+export const CardDatasLeft = [
+  {
+    id: 1,
+    imageSrc: Analysis,
+    title: "Analysis",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+    badgeSrc: One
+  },
+  {
+    id: 2,
+    imageSrc: Design,
+    title: "Design",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+    badgeSrc: Two
+  },
+  {
+    id: 3,
+    imageSrc: Development,
+    title: "Development",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+    badgeSrc: Three
+  },
+];
+
+export const CardDatasRight = [
+  {
+    id: 1,
+    imageSrc: Testing,
+    title: "Testing",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+    badgeSrc: Four
+  },
+  {
+    id: 2,
+    imageSrc: Launching,
+    title: "Launching",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+
+    badgeSrc: Five
+  },
+  {
+    id: 3,
+    imageSrc: Application,
+    title: "Support",
+    description: "We craft precise technical specs, aligning with your business, technology, and user requirements.",
+    badgeSrc: six
+  },
+]

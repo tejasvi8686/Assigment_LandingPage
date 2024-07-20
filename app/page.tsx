@@ -1,3 +1,4 @@
+import Application from "@/components/Application";
 import Developed from "@/components/Developed";
 import Discuss from "@/components/Discuss";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <Developed />
       <Discuss />
+      <Application />
     </main>
   );
 }
