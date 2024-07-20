@@ -1,4 +1,5 @@
 import Developed from "@/components/Developed";
+import Discuss from "@/components/Discuss";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Planet from "@/components/Planet";
@@ -13,6 +14,7 @@ export default function Home() {
       <Planet />
       <Projects />
       <Developed />
+      <Discuss />
     </main>
   );
 }
