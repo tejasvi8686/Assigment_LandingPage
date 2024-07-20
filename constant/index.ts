@@ -115,3 +115,79 @@ export const itemright = [
 //     alt: "yt",
 //   },
 // ];  
+
+
+export const course = [
+  "iOS development",
+  "Android development",
+  "Web development",
+  "UI/UX design",
+  "Testing",
+  "Launch",
+  "IT consulting"
+];
+
+
+
+export const formFields = [
+  {
+    id: "full_name",
+    label: "Full Name",
+    type: "text",
+    placeholder: "",
+    required: false,
+  },
+  {
+    id: "last_name",
+    label: "Last Name",
+    type: "text",
+    placeholder: "",
+    required: true,
+  },
+  {
+    id: "phone_number",
+    label: "Phone number (123-456-7890)",
+    type: "tel",
+    placeholder: "",
+    required: true,
+  },
+  {
+    id: "company_name",
+    label: "Company (Ex. Google)",
+    type: "text",
+    placeholder: "",
+    required: true,
+  },
+];
+
+// constants.js
+
+export const WEB_TECH = [
+  'PHP',
+  'Javascript',
+  'Node.JS',
+  'Web Socket',
+  'Socket.Io',
+  'Vue.js',
+  'Nuxt',
+  'MySQL',
+  'Laravel',
+  'GO lang',
+  'django',
+  'Python'
+];
+
+export const MOBILE_TECH = [
+  'Swift',
+  'Kotlin',
+  'Alamofire',
+  'Firebase',
+  'CoreData',
+  'Room',
+  'Realm',
+  'Coroutines',
+  'RxJava',
+  'RxSwift',
+  'Unit Test',
+  'Navigation'
+];
