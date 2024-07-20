@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Planet from "@/components/Planet";
 import Projects from "@/components/Projects";
 import Team from "@/components/Team";
+import Faq from "@/components/Faq";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Discuss />
       <Application />
       <Team />
+      <Faq />
       <Footer />
     </main>
   );
