@@ -32,7 +32,7 @@ const Team = () => {
           </p>
         </div>
         <div>
-          <Image src={People} height={400} width={500} alt="" />
+          <Image src={People} height={400} width={500} alt="" className="" />
         </div>
       </div>
     </section>
