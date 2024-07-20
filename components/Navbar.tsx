@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
-import Logo1 from "@/public/assets/logo.svg";
+import Logo1 from "@/public/assets/LOGO.svg";
 import Hamburg from "@/public/assets/hamburg.svg";
 import { itemleft, itemright } from "@/constant/index";
 
