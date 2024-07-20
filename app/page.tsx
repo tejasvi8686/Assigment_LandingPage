@@ -1,6 +1,7 @@
 import Application from "@/components/Application";
 import Developed from "@/components/Developed";
 import Discuss from "@/components/Discuss";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Planet from "@/components/Planet";
@@ -19,6 +20,7 @@ export default function Home() {
       <Discuss />
       <Application />
       <Team />
+      <Footer />
     </main>
   );
 }

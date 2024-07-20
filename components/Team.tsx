@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import People from "@/public/assets/people.svg";
+import {values} from "@/constant/index"
 
 const Team = () => {
   return (
@@ -14,18 +15,14 @@ const Team = () => {
           </p>
 
           <div className="flex flex-row justify-between items-center">
-            <div className="flex flex-col gap-2 ">
-              <h3 className="font-bold sm:text-4xl text-3xl">28</h3>
-              <p className="text-[#667085] font-medium text-sm">team members</p>
-            </div>
-            <div className="flex flex-col gap-2 ">
-              <h3 className="font-bold sm:text-4xl text-3xl">+100</h3>
-              <p className="text-[#667085] font-medium text-sm">Projects</p>
-            </div>
-            <div className="flex flex-col gap-2 ">
-              <h3 className="font-bold sm:text-4xl text-3xl">7 Years</h3>
-              <p className="text-[#667085] font-medium text-sm">in IT sphere</p>
-            </div>
+            {values.map((stat, index) => (
+              <div key={index} className="flex flex-col gap-2">
+                <h3 className="font-bold sm:text-4xl text-3xl">{stat.value}</h3>
+                <p className="text-[#667085] font-medium text-sm">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
           </div>
 
           <p className="text-sm font-medium">

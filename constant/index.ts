@@ -29,6 +29,10 @@ import Three from "@/public/assets/3.svg"
 import Four from "@/public/assets/4.svg"
 import Five from "@/public/assets/5.svg"
 import six from "@/public/assets/6.svg"
+import Phone from "@/public/assets/phonef.svg";
+import Address from "@/public/assets/addf.svg";
+import Mailf from "@/public/assets/mailf.svg";
+import Request from "@/public/assets/requestf.svg";
 
 
 
@@ -268,3 +272,32 @@ export const CardDatasRight = [
     badgeSrc: six
   },
 ]
+
+export const values = [
+  { value: '28', label: 'team members' },
+  { value: '+100', label: 'Projects' },
+  { value: '7 Years', label: 'in IT sphere' },
+];
+
+ export const contactInfo = [
+  {
+    image: Phone,
+    label: 'Contact nums',
+    value: '+91 0000000000'
+  },
+  {
+    image: Mailf,
+    label: 'Gmail',
+    value: 'demo@gmail.com'
+  },
+  {
+    image: Address,
+    label: 'Address',
+    value: 'Mumbai, INDIA'
+  },
+  {
+    image: Request,
+    label: 'Leave a Request',
+    value: 'Leave a Request'
+  }
+];

@@ -30,7 +30,7 @@ const Developed = () => {
             {Object.keys(Developeds).map((project) => (
               <span
                 key={project}
-                className={`font-medium text-lg cursor-pointer ${
+                className={`font-medium sm:text-lg text-sm cursor-pointer ${
                   activeProject === project
                     ? "border-b-2 border-yellow-400 w-18"
                     : ""
