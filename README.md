@@ -1,15 +1,6 @@
 # Landing Page With Next.js🔥
 
 
-![GitHub stars] (https://img.shields.io/github/stars/tejasvi8686/Responsive-App-Landing-Page-Design?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/tejasvi8686/Responsive-App-Landing-Page-Design?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/tejasvi8686.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
-
-
----
-# ⭐DO NOT FORGET TO STAR THIS REPO⭐
----
-
 ## 📑 Introduction
 
 I've developed a modern and responsive landing page using Next.js and TypeScript. This project showcases my skills in creating dynamic, high-performance web applications with a focus on user experience and maintainable code.
@@ -19,16 +10,12 @@ I've developed a modern and responsive landing page using Next.js and TypeScript
 - TypeScript
 - shadcn
 - Tailwind CSS
-- Farmer Motion
+
 
 ## ✨ Features
-👉 Dark Mode: Implemented dark mode features.
-
-👉 Carousel: Slider in FAQ.
 
 👉 Responsive Design: Optimized for all devices.
 
-👉 Animation: Created with Framer Motion.
 
 
 ## ScreenShot of the Website:
