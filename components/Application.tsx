@@ -14,7 +14,7 @@ type CardData = {
 
 const Application: React.FC = () => {
   return (
-    <section className="sm:container sm:px-24 sm:py-14 px-4 py-6">
+    <section className="sm:container sm:px-24 sm:py-14 px-4 py-10">
       <h2 className="font-bold sm:text-4xl text-3xl pb-12">Application Development Stages</h2>
       <div className="flex sm:flex-row flex-col justify-between">
         <div className="flex flex-col gap-5">

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Planet from "@/components/Planet";
 import Projects from "@/components/Projects";
+import Team from "@/components/Team";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Developed />
       <Discuss />
       <Application />
+      <Team />
     </main>
   );
 }
