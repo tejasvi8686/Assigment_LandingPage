@@ -23,7 +23,7 @@ const Planet = () => {
       </div>
 
       <div className="mx-auto sm:px-16 sm:py-10 px-4 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-52">
+        <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-52 gap-10">
           <div>
             <h2 className="text-2xl font-bold mb-4">Full development cycle</h2>
             <p className="text-gray-600 mb-4">We use proven technologies</p>
