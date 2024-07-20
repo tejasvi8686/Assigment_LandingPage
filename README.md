@@ -20,13 +20,13 @@ I've developed a modern and responsive landing page using Next.js and TypeScript
 
 ## ScreenShot of the Website:
 
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/11.png" width=100% height=100%/> <img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/12.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/13.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/14.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/15.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/16.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/17.png" width=100% height=100%/>
-<img src="https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design/blob/main/screenshots/18.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/9.png" width=100% height=100%/> <img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/10.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/11.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/12.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/13.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/14.png" width=100% height=100%/>
+<img src="https://github.com/tejasvi8686/Assigment_LandingPage/blob/main/screenshot/15.png" width=100% height=100%/>
+
 
 ---
 
